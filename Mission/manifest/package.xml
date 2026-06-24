@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>AccountMissionStatusHandler</members>
+        <members>AccountMissionStatusHandlerTest</members>
+        <members>ContactSyncService</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AccountMissionStatusTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Account.MissionStatus__c</members>
+        <members>Account.MissionCanceledDate__c</members>
+        <members>Contact.IsActive__c</members>
+        <name>CustomField</name>
+    </types>
+    <version>67.0</version>
+</Package>
